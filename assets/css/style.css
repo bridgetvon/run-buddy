@@ -55,10 +55,11 @@ footer div {
 footer a {
     color: #024e76;
 }
-/*hero Style start */
 section {
-    padding:60px;
+    padding: 60px;
 }
+
+/*hero Style start */
 .hero {
     background-image: url("https://static.fullstack-bootcamp.com/module-1/hero-bg.jpg");
     height: 600px;
@@ -66,15 +67,15 @@ section {
     background-position: center;
     position: relative;
 }
-/* hero style end*/
+
 .hero-form {
     border: 3px solid #024e76;
     background-color: #fce138;
     padding: 20px;
     width: 500px;
-    color: #024e76
-    position: absolute
-    bottom: 120px;
+    color: #024e76;
+    position: absolute;
+    bottom: 20px;
     right: 140px;
 }
 
@@ -92,7 +93,7 @@ section {
     display: block;
     padding: 7px 15px;
     font-size: 16px;
-    color: #024e76
+    color: #024e76;
     width: 100%;
     margin-bottom: 15px;
 }
@@ -101,7 +102,14 @@ section {
     margin: 0 5px;
 }
 
- 
+
+.hero-form button {
+    color: #fce138;
+    Background-color: #024e76;
+    border: none;
+    padding: 10 px 20px;
+    font-size: 16 px;
+}
 
 
 
