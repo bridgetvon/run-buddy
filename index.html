@@ -30,6 +30,7 @@
 </header>
 
 <section class="hero">
+<<<<<<< HEAD
     <div class="hero-CTA">
       <h2> Start Building Habits.</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum beatae deleniti sint veniam sunt fuga, enim illum soluta. Odit quibusdam eaque aliquam eius quos, tempora et obcaecati nesciunt voluptate veritatis.
@@ -37,6 +38,12 @@
       </div>
 
     </article>
+=======
+    <div class=hero-cta>
+      <h2>Start Building Habits</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas autem dignissimos, aspernatur rem doloribus cum. Error, sunt mollitia suscipit perspiciatis recusandae tempora ab illo minima atque ea expedita unde accusamus.</p>
+    </div>
+>>>>>>> feature/flexbox
     <div class=hero-form>
         <h3>Get Started Today</h3>
         <p>Fill out this form and one of our trainers will schedule a consult</p>
@@ -77,71 +84,110 @@
         <!--"what we do" section -->
         <!--What we do-->
       <section id="what-we-do" class=intro>
+        
+        <div class="flex-row">
         <h2 class="section-title primary-border">What we do</h2>
+        </div>
+
+      <div class="flex-row">
         <p>
           Butcher selfies chambray chic gentrify readymade yrEcho Park XOXO tumblr normcore Banksy direct trade blue bottle chillwave you 
         </p>
+      </div>
       </section>
      <!--What you do-->
      <section id="what-you-do" class="steps">
-       <h2 class="section-title secondary-border">What You Do</h2>
-       <div>
-        <img src="./assets/images/01-04-svgs/step-1.svg" alt=""/>
-         <h3><span>Step 1: Fill Out the Form Above.</span></h3>
-         <p> You're already here, so why not?</p>
+      <div class="flex-row">
+      <h2 class="section-title secondary-border">What You Do</h2>
        </div>
       
-       <div>
-        <img src="./assets/images/01-04-svgs/step-2.svg" alt=""/>
-         <h3><span>Step 2: Consult with one of Our Trainers.</span></h3>
-         <p> Are you here to build muscle, lose weight, or just feel good?</p>
+       <div class="step">
+         <h3>Step 1.</h3>
+         <div class="step-info">
+         <div class="step-img">
+           <img src="./assets/images/01-04-svgs/step-1.svg" alt=""/>
+          </div>
+         <h4>Fill Out the Form Above</h4>
+         <p> You're already here, so why not?</p>
+       </div>
+      </div>
+    </div>
+      
+       <div class="step">
+         <h3>Step 2.</h3>
+         <div class="step-info">
+         <div class="step-img">
+           <img src="./assets/images/01-04-svgs/step-2.svg" alt=""/>
+           </div>
+           <h4>Consult with One of Our Trainers</h4>
+           <p>Are you here to build muscle, lose weight, or just feel good?</p>
+         </div>
+         </div>
        </div>
 
-       <div>
-        <img src="assets/images/01-04-svgs/step-3.svg" alt=""/>
-        <h3><span>Step 3:Get Running.</span></h3>
-        <p>Hit the ground running (literally) once your trainer lays out your plan. </p>
+       <div class="step">
+        <h3>Step 3.</h3>
+        <div class="step-info">
+        <div class="step-img">
+          <img src="./assets/images/01-04-svgs/step-3.svg" alt=""/>
+          </div>
+          <h4>Get Running</h4>
+          <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+        </div>
+        </div>
       </div>
 
-      <div>
-        <img src="assets/images/01-04-svgs/step-4.svg" atl=""/>
-        <h3><span>Step 4: See results.</span></h3>
-        <p> Bi-weekly checkins with your trainer will keep you focused</p>
+
+      <div class="step">
+        <h3>Step 4.</h3>
+        <div class="step-info">
+        <div class="step-img">
+          <img src="./assets/images/01-04-svgs/step-4.svg" alt=""/>
+          </div>
+          <h4>See Results</h4>
+          <p>Bi-weekly checkins with your trainer will keep you focused</p>
+        </div>
+        </div>
       </div>
-     </section>
+
   </nav>
         <!--"meet the trainers" section -->
-        <section id="your-trainers" class="trainers">
-            <h2 class="section-title primary-border">
+        <section id="your-trainers">
+        <div class="trainers">
+          <div class="flex-row">
+          <h2 class="section-title primary-border">
               Meet The Trainers
             </h2>
+            </div>
               <article class="trainer">
                 <img src="./assets/images/01-05-trainers/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
-                <div class="trainer-bio text-left">
-                  <h3>Aaron Stephens</h3>
-                  <h4>Speed / Strength</h4>
+                <div class="trainer-bio">
+                  <h3 class="trainer-name">Aaron Stephens</h3>
+                  <h4 class= "trainer-role">Speed / Strength</h4>
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis commodi enim necessitatibus vel deleniti odit quidem, harum accusamus eligendi ad velit, similique officia assumenda recusandae modi amet ut molestias tenetur?
                   </p>
                 </div>
+                </article>
 
               <article class="trainer">
-                <div class="trainer-bio text-right">
-                  <h3>Joanna Gill</h3>
+                <img src="assets/images/01-05-trainers/trainer-2.jpg" alt="Joanna Gill lacing up for a run" />
+                <div class="trainer-bio">
+                  <h3 class="trainer-name">Joanna Gill</h3>
                   <h4>Endurance</h4>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel vitae perferendis officia dicta ut, facilis illo laudantium? Perferendis, provident, quidem deleniti minima veniam porro delectus ipsam aspernatur, modi nostrum quae?</p>
                 </div>
-                <img src="assets/images/01-05-trainers/trainer-2.jpg" alt="Joanna Gill lacing up for a run" />
                 </article>
                 
                 <article class="trainer">
                 <img src="./assets/images/01-05-trainers/trainer-3.jpg" alt="Harry SMith preparing for agility" />
-                <div class="trainer-bio text-left">
-                  <h3>Harry Smith</h3>
-                  <h4>Strength</h4>
+                <div class="trainer-bio>
+                  <h3 class="trainer-name">Harry Smith</h3>
+                  <h4 class="trainer-role">Strength</h4>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quibusdam dignissimos nemo, quasi, quia animi alias dolore ut culpa accusantium magni quod nobis? Soluta quam quisquam, autem vero dolorum amet.
                   </p>
                 </div>
               </article>
+            </div>
         </section>
         <!--"reach out" section -->
         <section id="reach-out" class="contact">
